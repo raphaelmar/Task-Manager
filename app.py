@@ -5,7 +5,7 @@ from bson.objectid import ObjectId
 
 app = Flask(__name__)
 app.config["MONGO_DBNAME"] = 'task_manager'
-app.config["MONGO_URI"] = ("mongodb+srv://Raphaelmar:CestReLou@myfirstcluster.goeyw.mongodb.net/<task_manager>?retryWrites=true&w=majority")
+app.config["MONGO_URI"] = "mongodb+srv://Raphaelmar:CestReLou@myfirstcluster.goeyw.mongodb.net/task_manager?retryWrites=true&w=majority"
 
 
 
