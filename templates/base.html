@@ -14,6 +14,7 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('.collapsible').collapsible();
+            $('select').material_select();
         });
 
         $('.datepicker').pickadate({
@@ -24,6 +25,10 @@
             close: 'Ok',
             closeOnSelect: false // Close upon selecting a date,
         });
+
+        document.getElementById("matfix").addEventListener("click", function(e) {
+	e.stopPropagation();
+});
     </script>
 </body>
 
